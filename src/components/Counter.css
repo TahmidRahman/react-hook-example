@@ -1,0 +1,26 @@
+.Container {
+  flex-direction: row;
+  align-items: flex-end;
+  display: inline-flex;
+  height: 20vmin;
+}
+
+button {
+  border-color: wheat;
+  background: wheat;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 25px 20px;
+  font-size: 0.7em;
+  display: flex;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 0em;
+  display: flex;
+}
+
+p {
+  font-size: 0.7em;
+}
