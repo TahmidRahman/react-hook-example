@@ -1,8 +1,13 @@
 .Container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Button-Container {
   flex-direction: row;
-  align-items: flex-end;
   display: inline-flex;
-  height: 20vmin;
 }
 
 button {
@@ -10,9 +15,9 @@ button {
   background: wheat;
   border-radius: 2px;
   padding: 10px;
-  margin: 25px 20px;
+  margin: 20px;
+  margin-right: 0;
   font-size: 0.7em;
-  display: flex;
 }
 
 h1 {
